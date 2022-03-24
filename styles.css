@@ -1,0 +1,64 @@
+body{
+  background-color: #f5d9df;
+  font-family: 'nunito', sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+  color: white;
+}
+#mainNavbar .nav-link:hover{
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c; 
+}
+
+img{
+  border-radius: 0.7em;
+}
+
+section span{
+  color: #ea1c2c;
+}
+
+#museumText h1{
+ font-weight: 100;
+ font-size:4rem ;
+}
+
+h2{
+  font-weight: 100;
+  font-size: 2.8rem;
+  color: #ea1c2c;
+}
+section p{
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.navbar.scrolled{
+  background-color:#E4C8DD;
+  transition: background-color 200ms ease-in-out;
+}
+
+@media (max-width:1600px){
+  #museumText h1{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1130px){
+  #museumText h1{
+    font-size:2.5rem ;
+  }
+}
+
+
